@@ -1,0 +1,93 @@
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# Python cache and compiled files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+*.egg
+dist/
+build/
+develop-eggs/
+.eggs/
+.installed.cfg
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+htmlcov/
+
+# ========================================
+# IDEs & Editors
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# ========================================
+# Environment & Config Files
+# ========================================
+.env
+.env.*
+!.env.example
+
+# ========================================
+# OS files
+# ========================================
+.DS_Store
+Thumbs.db
+
+# ========================================
+# FastAPI / Uvicorn / Alembic
+# ========================================
+*.db
+alembic/versions/__pycache__/
+alembic.ini
+*.sqlite
+
+# ========================================
+# Docker
+# ========================================
+# Ignore local Docker data but keep Dockerfile & compose
+**/docker-compose.override.yml
+**/docker-data/
+**/db-data/
+**/pgdata/
+**/volumes/
+**/.docker/
+
+# ========================================
+# Logs
+# ========================================
+*.log
+logs/
+uvicorn.log
+
+# ========================================
+# Misc
+# ========================================
+__init__.pyc
+migrations/
+node_modules/
+frontend/
