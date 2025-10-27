@@ -40,7 +40,7 @@ app = FastAPI(
 # ✅ Allow your Next.js frontend origin
 origins = [
     "http://localhost:3000",  # Next.js dev server
-    "https://your-production-domain.com",  # (optional) add your deployed site later
+    "https://quickpoll-six.vercel.app/",  # (optional) add your deployed site later
 ]
 
 app.add_middleware(
