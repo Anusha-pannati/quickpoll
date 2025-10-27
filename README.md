@@ -119,7 +119,7 @@ Create a `.env` file inside the backend directory:
 
 ```
 # Database
-DATABASE_URL=postgresql+asyncpg://postgres:postgres@localhost:5432/quickpoll
+DATABASE_URL=sqlite+aiosqlite:///./app.db
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
 POSTGRES_HOST=localhost
