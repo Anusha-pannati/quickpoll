@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'QuickPoll - Real-Time Opinion Polling',
   description: 'Create polls, vote, and see live results in real-time',
   icons: {
-    icon: "/poll.png",
+    icon: "/favicon.ico"
   },
 };
 
